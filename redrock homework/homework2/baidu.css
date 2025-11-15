@@ -1,0 +1,197 @@
+/* 字体大小 */
+.right {
+    font-size: 15px;
+}
+
+/* 取消点,加入边距,浮动布局 */
+.l1 {
+    list-style: none;
+    margin-right: 32px;
+    float: right;
+
+}
+
+.l2 {
+    list-style: none;
+    margin-right: 32px;
+    float: right;
+
+}
+
+.l3 {
+    list-style: none;
+    margin-right: 32px;
+    float: right;
+
+}
+
+/*加粗,默认黑色 */
+.l1 a {
+    color: black;
+
+    font-weight: bold;
+}
+
+.l2 a {
+    color: black;
+}
+
+.l3 a {
+    color: rgb(255, 255, 255);
+}
+
+/* 鼠标悬停样式 */
+.l1 a:hover {
+    color: rgb(121, 201, 45);
+}
+
+.l2 a:hover {
+    color: rgb(121, 201, 45);
+}
+
+.l3 a:hover {
+    color: rgb(182, 182, 235);
+}
+
+/* 更多产品 */
+.more {
+
+    font-weight: bold;
+    border: 1px solid #14429e;
+    border-radius: 3px;
+    background-color: #14429e;
+    padding: 2px 6px;
+    text-decoration: none;
+
+}
+
+/* 百度logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+/* 搜索框 */
+.search {
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+
+.input {
+    width: 750px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 1%;
+    position: center;
+    display: flex;
+    border: 1px solid#14429e;
+
+}
+
+.button {
+    width: 92px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #14429e;
+    border: 1px solid #14429e;
+}
+
+.button:hover {
+    background-color: #1e53bd;
+
+}
+
+/* 下面那一坨二维码和字 */
+.code {
+    margin-top: 167px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.graywords {
+    margin-top: -45px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.smallergraywords {
+    color: #999999;
+    margin-top: -54px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.smallergraywords2 {
+    color: #999999;
+    font-size: 15px;
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+
+}
+
+.copyright {
+    color: #999999;
+    font-size: 15px;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-right: 0;
+}
+
+.l4 {
+    font-size: 13px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 32px;
+    float: right;
+
+
+}
+
+.l4 a {
+    color: #999999;
+
+
+}
+
+.l5 a {
+    color: #999999;
+
+}
+
+
+.l4 a:hover {
+    color: rgb(121, 201, 45);
+}
+
+.l5 {
+    color: #999999;
+    font-size: 13px;
+    list-style: none;
+    margin-right: 5px;
+    padding: 0;
+    float: right;
+}
+
+.l5 a:hover {
+    color: rgb(121, 201, 45);
+}

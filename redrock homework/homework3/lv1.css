@@ -1,0 +1,47 @@
+.box {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid black;
+
+}
+
+/* div的颜色变化 */
+.box>div {
+    width: 240px;
+    height: 50px;
+    background-color: grey;
+    transition: all 0.6s ease;
+}
+
+/* 变色 */
+.box>div:hover {
+    background-color: yellow;
+    font-size: smaller;
+}
+
+/* p标签 */
+a+p {
+    color: red;
+}
+
+ul+p {
+    color: red;
+}
+
+/* a取消下划线 */
+.box>a {
+    text-decoration: none;
+}
+
+/* li */
+.box ul li:first-child {
+    font-size: 20px;
+}
+
+.box ul li:nth-child(2) {
+    font-size: 30px;
+}
+
+.box ul li:nth-child(3) {
+    font-size: 40px;
+}
