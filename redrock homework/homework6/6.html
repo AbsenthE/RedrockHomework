@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<body>
+    <div>
+        <b>请选择您的爱好</b>
+        <br />
+    </div>
+    <div id="divlist">
+        <input class="checkbox" type="checkbox" value="内卷">内卷
+        <input class="checkbox" type="checkbox" value="疯狂内卷">疯狂内卷
+        <input class="checkbox" type="checkbox" value="拼命内卷">拼命内卷
+        <input class="checkbox" type="checkbox" value="使劲内卷">使劲内卷
+        <br />
+        <input type="button" value="全选" onclick="allSelect()">
+        <input type="button" value="全不选" onclick="allNotSelect()">
+        <input type="button" value="反选" onclick="selectNotSelectedSelection()">
+    </div>
+</body>
+<script>
+    //获取点击框
+    var checkbox = document.getElementsByClassName("checkbox")
+    //全选的函数
+    function allSelect() {
+        for (var i = 0; i < 4; i++) {
+            checkbox[i].checked = true;
+        }
+    }
+    //全不选的函数
+    function allNotSelect() {
+        for (var i = 0; i < 4; i++) {
+            checkbox[i].checked = false;
+        }
+    }
+    //反选
+    function selectNotSelectedSelection() {
+        for (var i = 0; i < 4; i++) {
+            if (checkbox[i].checked == true) {
+                checkbox[i].checked = false;
+            }
+            else {
+                checkbox[i].checked = true;
+            }
+        }
+    }
+</script>
+
+</html>
